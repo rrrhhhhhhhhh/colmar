@@ -81,27 +81,25 @@ nav a {
 
 /* Footer */
 
-.footer {
+footer {
   display: flex;
   flex-direction: row;
   background-color: lightgray;
   width: 100%;
 }
 
-.footer-items {
-  display: flex;
+.footer-menu {
   margin: 1rem 1.5rem 2.25rem 1.5rem;
 }
 
-.footer-items nav ul {
+footer nav ul {
   display: flex;
   justify-content: space-between;
 }
-  
 
-.footer-items nav li {
+
+footer nav li {
   padding-left: 1rem;
-  font-family: ;
   line-height: 1.6;
   vertical-align: bottom;
   line-height: 1.6;
