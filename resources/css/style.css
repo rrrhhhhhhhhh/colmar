@@ -1,0 +1,112 @@
+/* Universal Styles */
+
+body {
+font-size: 16px;
+font-family: "Helvetica", Ariel, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+/* Header */
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  margin: 0 1.5rem;
+}
+
+header .logo {
+  flex: 1;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+span#logo-bold {
+  font-weight: 800;
+}
+
+span#logo-reg {
+  font-weight: 400;
+  color: dimgray;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 1rem;
+  font-family: ;
+  line-height: 1.6;
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-family: ;
+  text-decoration: none;
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Main Banner */
+
+
+
+/* About Section */
+
+
+
+/* Courses Section */
+
+
+
+/* Thesis Section */
+
+
+
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  width: 100%;
+}
+
+.footer-items {
+  display: flex;
+  margin: 1rem 1.5rem 2.25rem 1.5rem;
+}
+
+.footer-items nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+  
+
+.footer-items nav li {
+  padding-left: 1rem;
+  font-family: ;
+  line-height: 1.6;
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-family: ;
+  text-decoration: none;
+  color: black;
+}
