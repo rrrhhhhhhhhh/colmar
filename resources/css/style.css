@@ -82,25 +82,33 @@ nav a {
 /* Footer */
 
 footer {
-  display: flex;
+  height: 100%;
   background-color: lightgray;
-  width: 100%;
-
 }
 
 .footer-menu {
   display: flex;
+  align-items: center;
+  height: 4rem;
   margin: 1rem 1.5rem 2.25rem 1.5rem;
+}
 
+footer span {
+  display: block;
+  width: 100%;
+}
+
+footer nav {
+  display: block;
+  width: 100%;
 }
 
 footer nav ul {
   display: flex;
-
+  justify-content: flex-end;
 }
 
 footer nav li {
   text-decoration: none;
   color: black;
-
 }
