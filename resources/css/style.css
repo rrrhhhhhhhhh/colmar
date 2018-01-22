@@ -16,6 +16,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: white;
+  top: 0px;
 }
 
 header .container {
@@ -64,15 +65,150 @@ nav a {
 
 /* Main Banner */
 
+.main-banner {
+  background-color: lightgray;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
+.main-banner .image-container {
+  width: 60%;
+  height: auto;
+  margin: 4rem 1.5rem 2rem 1.5rem;
+}
+
+.main-banner img {
+  display: block;
+  max-width: 100%;
+}
+
+.main-banner-info {
+  display: block;
+  width: 20%;
+  margin-left: 1rem;
+}
+
+.main-banner-info h1 {
+  display: block;
+  font-weight: 800;
+  font-size: 3rem;
+  color: gray;
+}
+
+.main-banner-info p {
+  display: block;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.main-banner-info h3 {
+  display: block;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5rem;
+}
 
 /* About Section */
 
+.about-section {
+  background-color: white;
+
+}
+
+.about-section .image-container {
+  width: 60%;
+  height: auto;
+  margin: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.about-section img {
+  display: block;
+  max-width: 100%;
+}
+
+.about-section .image-container h2 {
+  margin: 2rem 0 1.5rem 0;
+}
+
+.about-section .image-container p {
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+.about-section .image-container span {
+  margin: 2rem 0 2rem 0;
+}
+
+.about-section-menu {
+  display: flex;
+  width: 40%;
+}
+
+.about-section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.about-section-menu .image-container {
+  height: auto;
+  margin: 1rem;
+  width: 35%;
+}
+
+.about-section-menu img {
+  display: block;
+  max-width: 100%;
+}
+
+.about-section-menu .info-content {
+    width: 65%;
+    display: block;
+}
 
 
 /* Courses Section */
 
+.courses-container {
+  background-color: lightgray;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
 
+.courses-container h1 {
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+}
+
+.course-column {
+  flex: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+}
+
+.button {
+}
+
+.course .image-container {
+  height: auto;
+  margin: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.course .image-container img {
+  display: block;
+  max-width: 100%;
+}
 
 /* Thesis Section */
 
@@ -84,6 +220,15 @@ nav a {
 footer {
   height: 100%;
   background-color: lightgray;
+}
+
+footer:before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 99%;
+    padding-top: ;
+    border-bottom: 1px solid black;
 }
 
 .footer-menu {
