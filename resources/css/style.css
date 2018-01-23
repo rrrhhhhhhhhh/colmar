@@ -181,33 +181,48 @@ nav a {
 .courses-container {
   background-color: lightgray;
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
+  padding: 0 4.5rem;
+  justify-content: center;
 }
 
-.courses-container h1 {
-  padding: 2rem 0 2rem 0;
+.courses-container h1, .exhibition-featured h1 {
   text-align: center;
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 2em;
+  font-weight: 800;
 }
 
-.course-column {
-  flex: 0;
+.courses-menu {
   display: flex;
-  flex-direction: column;
-  background-color: green;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem;
 }
 
-.button {
-}
-
-.course .image-container {
-  height: auto;
-  margin: 2rem 1.5rem 2rem 1.5rem;
-}
-
-.course .image-container img {
+.course-items {
   display: block;
-  max-width: 100%;
+  width: 22rem;
+  height: 20rem;
+  margin-right: 2rem;
+  margin-bottom: 1.5rem;
+  background-color: white;
+}
+
+.item {
+  display: block;
+  margin:
+}
+
+.item h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.courses-container img {
+  display: block;
+  height: auto;
 }
 
 /* Thesis Section */
