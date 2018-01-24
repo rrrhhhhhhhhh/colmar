@@ -247,6 +247,35 @@ nav a {
 
 /* Thesis Section */
 
+.featured-thesis {
+  background-color: white
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featured-thesis h2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.thesis-information {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 0 1.5rem 2rem;
+  padding: 0;
+}
+
+.thesis-info p {
+  width: 20rem;
+  display: block;
+}
+
+.exhibition-vid video {
+  width: 60%;
+  height: auto;
+}
 
 /* Footer */
 
