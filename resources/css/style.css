@@ -1,4 +1,5 @@
 /* UNIVERSAL */
+
 html {
   font-size: 16px;
   font-family: "Lato", sans-serif;
@@ -15,6 +16,7 @@ main,
 main a {
   color: #4580d8;
   font-weight: lighter;
+  text-decoration: none;
 }
 
 .section-title {
@@ -70,18 +72,22 @@ main a {
 .right-container .menu {
   display: flex;
   flex-direction: column;
-
-
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 .right-container .menu-item {
   display: flex;
   align-items: center;
   border-bottom: lightgrey solid 1px;
-  border-top: lightgrey solid 1px;
+  /*border-top: lightgrey solid 1px;*/
+  transition: <property> <duration> <timing-function> <delay>;
+}
+
+.menu-item:hover {
+  background-color: #cccccc;
+  transition-property: background-color;
+  transition-duration: 1s;
 }
 
 .right-container .menu-item img {
@@ -100,6 +106,7 @@ main a {
 }
 
 /* HEADER */
+
 header .nav-container {
   background-color: white;
   display: flex;
@@ -137,6 +144,10 @@ header nav ul li {
   margin-left: 1rem;
 }
 
+header nav ul li:hover {
+  transition:
+}
+
 header .nav-container-mobile {
   display: flex;
   justify-content: space-around;
@@ -145,6 +156,7 @@ header .nav-container-mobile {
 }
 
 /* DESKTOP HEADER */
+
 @media only screen and (min-width: 470px){
   header .nav-container-mobile {
     display: none;
@@ -152,6 +164,7 @@ header .nav-container-mobile {
 }
 
 /* MOBILE HEADER */
+
 @media only screen and (max-width: 470px){
   header .nav-container {
     display: none;
@@ -159,6 +172,7 @@ header .nav-container-mobile {
 }
 
 /* BANNER */
+
 .banner-container {
   display: flex;
   flex-grow: 1;
@@ -198,6 +212,7 @@ header .nav-container-mobile {
 }
 
 /* MOBILE BANNER */
+
 @media only screen and (max-width: 470px){
   .banner-container {
     background-color: #494949;
@@ -227,6 +242,7 @@ header .nav-container-mobile {
 }
 
 /* MAIN--top */
+
 .basic-info-container {
   display: flex;
   flex-grow: 1;
@@ -254,6 +270,7 @@ header .nav-container-mobile {
 /* (see universal section for right container styling) */
 
 /* MOBILE MAIN TOP */
+
 @media only screen and (max-width: 470px){
   .basic-info-container .left-container {
     display: none;
@@ -289,6 +306,7 @@ header .nav-container-mobile {
 }
 
 /* MAIN--middle */
+
 .start-learning-container {
   display: flex;
   flex-direction: column;
@@ -451,13 +469,23 @@ footer .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: lightgrey solid 1px;
+  /* border-top: lightgrey solid 1px; */
   height: 5rem;
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: .75rem;
   font-weight: lighter;
 }
+
+footer:before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 99%;
+    padding-top: 0;
+    border-bottom: 1px solid lightgrey;
+}
+
 
 footer nav ul {
   display: flex;
